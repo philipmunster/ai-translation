@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  margin-bottom: 0;
+}
+
+header {
+  background-color: #111827;
+  color: #FFFFFF;
+  font-size: 2rem;
+  text-align: center;
+  padding-block: 2em;
+  font-weight: 700;
+}
+
+.globe-icon {
+  margin-right: 10px;
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+section.translate-area {
+  max-width: 400px;
+  padding: 2em;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.wrapper-input-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.translation-label {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 0.5em;
+  margin-top: 2em;
+}
+
+.input-text {
+  background-color: rgb(229, 229, 228);
+  border: none;
+  padding: 1em;
+  border-radius: 10px;
+  font-family: "Inter", sans-serif;
+  resize: none;
+  font-size: 1rem;
+}
+
+.language-fieldset {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  border: none;
+  margin-block: 1.5em;
+}
+
+.language-fieldset label {
+  font-weight: 600;
+}
+
+.language-legend {
+  text-align: center;
+  font-weight: 500;
+}
+
+.language-radio {
+  margin-right: 0.6em;
+}
+
+button {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  border: none;
+  padding: 1em 3em;
+  border-radius: 10px;
+  background-color: #111827;
+  color: #FFFFFF;
+}
+
+.translated-text {
+  background-color: rgb(229, 229, 228);
+  border: none;
+  padding: 1em;
+  border-radius: 10px;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 2em;
+  height: 5em;
+}
+
+.translated-text > p {
+  margin: 0;
+  text-align: left;
+}
+
+.loading {
+  margin-top: 2em;
+}
